@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,700&display=swap");
+:root {
+  --primaryfont: "Josefin Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primaryfont);
+  padding: 10px;
+  background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=priscilla-du-preez-XkKCui44iM0-unsplash.jpg&w=1920");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+body > h1 {
+  margin: 20px 0 10px 0;
+}
+
+body > p {
+  font-size: 1.7rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #7c7cb8;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.form {
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+  text-align: left;
+  width: 50%;
+  background-color: #2c2c47;
+  opacity: 0.9;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+label {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0px;
+  font-family: var(--primaryfont);
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+input[type=radio] {
+  margin-right: 10px;
+  width: 30px;
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+  width: 30px;
+}
+
+.option, .Checkbox {
+  margin-top: 5px;
+}
+
+textarea {
+  width: 100%;
+  font-family: var(--primaryfont);
+  margin-top: 10px;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+button[type=submit] {
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  font-family: var(--primaryfont);
+  font-size: 1.2rem;
+  background-color: #6aaa6a;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #346b34;
+}
+/*# sourceMappingURL=style.css.map */
